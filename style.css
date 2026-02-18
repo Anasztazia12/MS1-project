@@ -25,6 +25,14 @@ header h1 {
   letter-spacing: 3px;
   margin: 0 0 10px;
 }
+.fishing-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
 
 /* NAV */
 
@@ -58,7 +66,7 @@ nav a[aria-current="page"]::after {
   width: 100%;
 }
 
-/* FŐ TARTALOM */
+/* main */
 
 main {
   padding: 30px 20px;
@@ -85,16 +93,17 @@ main p {
   line-height: 1.7;
 }
 
-/* CARP KÉP + TÁBLA */
+/* CARP image and table*/
 
-.carp-image {
+.carp2-image {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+  margin: 25px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 }
+
 
 .carp-table {
   width: 100%;
