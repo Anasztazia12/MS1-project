@@ -5,32 +5,40 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: url('lake-background.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #fff;
+  /* nyugodt, víz-hangulatú háttér */
+  background: radial-gradient(circle at top, #1e88e5 0, #0d47a1 40%, #001326 100%);
+  color: #f5f9ff;
 }
 
-.carp-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-/* Header */
- header {
-  background: linear-gradient(135deg, #0277bd, #01579b);
+/* HEADER */
+
+header {
+  background: rgba(0, 0, 0, 0.65);
   color: white;
-  padding: 40px 20px;
+  padding: 25px 20px;
   text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+header h1 {
+  font-size: 46px;
+  letter-spacing: 3px;
+  margin: 0 0 10px;
+}
+
+/* NAV */
 
 nav {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 nav a {
+  display: inline-block;
+  margin: 0 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffeb3b;
+  text-decoration: none;
   position: relative;
 }
 
@@ -38,32 +46,84 @@ nav a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: -4px;
   width: 0%;
   height: 2px;
-  background: white;
-  transition: 0.3s;
+  background: #ffeb3b;
+  transition: width 0.25s;
 }
 
-nav a:hover::after {
+nav a:hover::after,
+nav a[aria-current="page"]::after {
   width: 100%;
 }
 
-/* Main content */
+/* FŐ TARTALOM */
+
 main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 35px auto;
   background: rgba(0, 0, 0, 0.55);
-  color: white;
-  padding: 30px;
-  border-radius: 8px;
-  backdrop-filter: blur(3px);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
 
+main h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
 
-/* Footer */
-footer {
-  background-color: #01579b;
-  color: white;
-  text-align: center;
+main h3 {
+  font-size: 22px;
+  margin-top: 5px;
+  color: #bbdefb;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* CARP KÉP + TÁBLA */
+
+.carp-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+}
+
+.carp-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.carp-table th,
+.carp-table td {
+  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 10px;
+}
+
+.carp-table th {
+  background: rgba(21, 101, 192, 0.9);
+}
+
+.carp-table td {
+  background: rgba(13, 71, 161, 0.7);
+}
+
+/* FOOTER */
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #e3f2fd;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 14px;
   margin-top: 30px;
 }
