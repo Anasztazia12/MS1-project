@@ -142,8 +142,15 @@ table td {
 table tr:hover {
   background-color: rgba(255, 255, 255, 0.08);
 }
+.contact-wrapper {
+  text-align: center;
+}
+
 .contact-item {
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
 }
 
 .label {
