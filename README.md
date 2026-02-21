@@ -11,7 +11,6 @@ The final design follows these wireframes: clean sections, readable text, and a 
 Testing
 The project was tested on different devices and screen sizes to make sure everything shows correctly.
 A few small problems were found, like text overlapping and spacing issues, but these were fixed by updating the CSS.
-There are no major bugs left — only some very small visual differences on older devices, which do not affect how the site works.
 
 Deployment 
 The project was published using GitHub Pages.
