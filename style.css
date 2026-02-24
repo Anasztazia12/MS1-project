@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   background: radial-gradient(circle at top, #1e88e5 0, #0d47a1 40%, #001326 100%);
   color: #f5f9ff;
 }
@@ -242,10 +244,11 @@ h3 {
 /* FOOTER */
 
 footer {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.6);
   color: #e3f2fd;
   text-align: center;
   padding: 12px 10px;
   font-size: 14px;
+
   margin-top: 30px;
 }
