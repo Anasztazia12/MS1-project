@@ -1,19 +1,113 @@
-This project was created for carp anglers and fish enthusiasts in Hungary who want quick access to reliable information about lakes, fish species, and carp data.
-The goal is to present clear, organised details that help users learn about fish and choose suitable fishing locations.
-Target Audience:
-Carp anglers, fish hobbyists, and anyone interested in Hungarian fish and lake information.
+## CARPYXA
 
-UX design
-The UX design focused on presenting fish and carp information in a clear and simple way.
-Basic wireframes were created to plan the layout, showing where the lake names, fish data and images would appear.
-The final design follows these wireframes: clean sections, readable text, and a layout that works on both desktop and mobile.
+CARPYXA is a fishing website.
+It is about carp and other fish.
+The site gives simple and useful information for people who like fishing.
 
-Testing
-The project was tested on different devices and screen sizes to make sure everything shows correctly.
-A few small problems were found, like text overlapping and spacing issues, but these were fixed by updating the CSS.
+---
 
-Deployment 
-The project was published using GitHub Pages.
-All project files were uploaded to a GitHub repository, and GitHub Pages was turned on in the repository settings.
-After enabling it, the website became available through the link provided by GitHub Pages.
+## Project Purpose
+
+- Give clear fish information
+- Show carp facts and fishing content
+- Make a clean and easy website
+
+---
+
+## Target Users
+
+- Carp anglers
+- Fish hobbyists
+- People who like nature and fishing
+
+---
+
+## Website Pages
+
+- Home page (index.html)
+- Carp page (carp.html)
+- Fishing Experience page (fishing-experience.html)
+
+---
+
+## Main Features
+
+- Navigation menu on all pages
+- Fish cards and fish table
+- Carp information table
+- Google map section
+- Contact info section
+- Responsive layout for mobile and desktop
+
+---
+
+## Design
+
+- Dark blue theme
+- Easy-to-read text
+- Same style on every page
+- Google Fonts for headings and body text
+
+---
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- AI Copilot
+- GitHub
+- GitHub Pages
+
+---
+
+## Testing
+
+I tested the website on different screen sizes.
+
+Checked:
+- Navigation links
+- Images
+- Tables
+- Spacing and layout
+- Map loading
+
+Validation tools:
+- HTML: https://validator.w3.org/
+- CSS: https://jigsaw.w3.org/css-validator/
+
+---
+
+## Bugs
+
+- Some spacing issues were fixed in CSS.
+- No major known bugs now.
+
+---
+
+## Deployment
+
+This project is deployed on GitHub Pages.
+
+Steps:
+1. Upload project to GitHub repository.
+2. Open Settings in the repository.
+3. Open Pages.
+4. Select main branch.
+5. Save.
+6. Open the live link from GitHub Pages.
+
+---
+
+## Credits
+
+- Google Fonts
+- Google Maps embed
+
+---
+
+## Author
+
+Anasztázia Karalyos-Kecskés
+2026
 
