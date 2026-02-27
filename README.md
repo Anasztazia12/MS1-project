@@ -1,4 +1,4 @@
-## CARPYXA
+ CARPYXA
 
 CARPYXA is a fishing website.
 It is about carp and other fish.
@@ -6,32 +6,28 @@ The site gives simple and useful information for people who like fishing.
 
 ---
 
-## Project Purpose
-
+Project Purpose
 - Give clear fish information
 - Show carp facts and fishing content
 - Make a clean and easy website
 
 ---
 
-## Target Users
-
+Target Users
 - Carp anglers
 - Fish hobbyists
 - People who like nature and fishing
 
 ---
 
-## Website Pages
-
+Website Pages
 - Home page (index.html)
 - Carp page (carp.html)
 - Fishing Experience page (fishing-experience.html)
 
 ---
 
-## Main Features
-
+Main Features
 - Navigation menu on all pages
 - Fish cards and fish table
 - Carp information table
@@ -41,8 +37,7 @@ The site gives simple and useful information for people who like fishing.
 
 ---
 
-## Design
-
+Design
 - Dark blue theme
 - Easy-to-read text
 - Same style on every page
@@ -50,19 +45,15 @@ The site gives simple and useful information for people who like fishing.
 
 ---
 
-## Technologies Used
-
+Technologies Used
 - HTML
 - CSS
 - JavaScript
 - AI Copilot
-- GitHub
-- GitHub Pages
-
+- GitHub 
 ---
 
-## Testing
-
+Testing
 I tested the website on different screen sizes.
 
 Checked:
@@ -70,23 +61,17 @@ Checked:
 - Images
 - Tables
 - Spacing and layout
-- Map loading
-
-Validation tools:
-- HTML: https://validator.w3.org/
-- CSS: https://jigsaw.w3.org/css-validator/
+- Map loading 
 
 ---
 
-## Bugs
-
+Bugs
 - Some spacing issues were fixed in CSS.
 - No major known bugs now.
 
 ---
 
-## Deployment
-
+Deployment
 This project is deployed on GitHub Pages.
 
 Steps:
@@ -99,15 +84,6 @@ Steps:
 
 ---
 
-## Credits
-
-- Google Fonts
-- Google Maps embed
-
----
-
-## Author
-
+Author
 Anasztázia Karalyos-Kecskés
-2026
-
+2026 
